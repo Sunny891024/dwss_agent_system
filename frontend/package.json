@@ -1,0 +1,23 @@
+{
+  "name": "dwss-agent-system-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  }
+}
